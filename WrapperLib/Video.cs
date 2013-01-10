@@ -8,7 +8,7 @@ namespace WrapperLib
 {
 
     [Serializable]
-    public class Video : Message
+    public class Video : ChannelData
     {
         public byte[] video
         { get; set; }

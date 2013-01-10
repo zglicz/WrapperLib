@@ -42,6 +42,7 @@
     <Compile Include="Alive.cs" />
     <Compile Include="Audio.cs" />
     <Compile Include="Autenticate.cs" />
+    <Compile Include="ChannelData.cs" />
     <Compile Include="ChannelList.cs" />
     <Compile Include="JoinServer.cs" />
     <Compile Include="JoinChannel.cs" />

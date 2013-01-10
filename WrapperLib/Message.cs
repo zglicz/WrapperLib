@@ -24,6 +24,7 @@ namespace WrapperLib
     [XmlInclude(typeof(Alive))]
     [XmlInclude(typeof(JoinServer))]
     [XmlInclude(typeof(LeaveServer))]
+    [XmlInclude(typeof(ChannelData))]
 
     public abstract class Message
     {

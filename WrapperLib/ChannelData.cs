@@ -7,17 +7,7 @@ using System.Threading.Tasks;
 namespace WrapperLib
 {
     [Serializable]
-    public class Text : ChannelData
+    public class ChannelData : Message
     {
-
-        public String text
-        { get; set; }
-
-        public Text()
-            : base()
-        {
-            text = "";
-        }
-
     }
 }

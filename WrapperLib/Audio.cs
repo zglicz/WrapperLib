@@ -8,7 +8,7 @@ namespace WrapperLib
 {
 
     [Serializable]
-    public class Audio : Message
+    public class Audio : ChannelData
     {
         public byte[] audio
         { get; set; }
