@@ -46,6 +46,7 @@
     <Compile Include="JoinServer.cs" />
     <Compile Include="JoinChannel.cs" />
     <Compile Include="LeaveChannel.cs" />
+    <Compile Include="LeaveServer.cs" />
     <Compile Include="RequestAlive.cs" />
     <Compile Include="RequestChannelList.cs" />
     <Compile Include="ServerMsg.cs" />

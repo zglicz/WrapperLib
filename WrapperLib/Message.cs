@@ -23,6 +23,7 @@ namespace WrapperLib
     [XmlInclude(typeof(RequestAlive))]
     [XmlInclude(typeof(Alive))]
     [XmlInclude(typeof(JoinServer))]
+    [XmlInclude(typeof(LeaveServer))]
 
     public abstract class Message
     {
