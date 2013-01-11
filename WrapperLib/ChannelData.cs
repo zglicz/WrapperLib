@@ -9,5 +9,12 @@ namespace WrapperLib
     [Serializable]
     public class ChannelData : Message
     {
+        public string channelName
+        { get; set; }
+
+        public ChannelData() : base()
+        {
+            channelName = "";
+        }
     }
 }
